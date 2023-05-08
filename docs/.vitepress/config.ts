@@ -8,7 +8,10 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Examples', link: '/markdown-examples' },
+      { text: 'Blogs', link: '/src/blog/index' },
+      { text: '快速入口', link: 'src/fast-entry/index' },
+      { text: '待办事项', link: 'src/todos/index' }
     ],
 
     sidebar: [
@@ -17,6 +20,22 @@ export default defineConfig({
         items: [
           { text: 'Markdown Examples', link: '/markdown-examples' },
           { text: 'Runtime API Examples', link: '/api-examples' }
+        ]
+      },
+      {
+        text: 'Blogs',
+        items: [
+          {
+            text: 'git 相关', link: '/src/blog/git/index'
+          }
+        ]
+      },
+      {
+        text: '翻译内容',
+        items: [
+          {
+            text: 'Vite Press 中文文档', link: '/src/translate/index'
+          }
         ]
       }
     ],
