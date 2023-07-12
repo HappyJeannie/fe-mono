@@ -2,6 +2,8 @@
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
+lastUpdated: true
+
 hero:
   name: "fe-mono"
   text: "HappyJeannie's fe-mono blog via vite-press"
