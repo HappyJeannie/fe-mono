@@ -9,7 +9,7 @@ import {
 export default defineConfig({
   title: "fe-mono",
   description: "HappyJeannie's fe-mono blog via vite-press",
-  base: "/HappyJeannie/fe-mono",
+  base: "/fe-mono",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
