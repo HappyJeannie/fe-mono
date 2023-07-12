@@ -20,7 +20,7 @@ hero:
       link: /foo/index
 
 features:
-  - title: Feature A
+  - title: Feature A test
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
   - title: Feature B
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
